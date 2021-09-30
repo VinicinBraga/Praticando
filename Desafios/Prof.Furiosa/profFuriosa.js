@@ -8,6 +8,17 @@ happens = (students, minimumQuantity) => {
   return contInTime >= minimumQuantity;
 };
 
-let studentsOnMondays = [10, -5, 3, 0];
+openings = (daysArrivals, minimumQuantity) => {
+  finalArray = [];
+  for (const day of daysArrivals) {
+    finalArray.push(happens(day, minimumQuantity));
+  }
+  return finalArray;
+};
 
-console.log(happens(studentsOnMondays, 2));
+let studentsOnMondays = [10, -5, 3, 0, -3];
+let studentsOnTusday = [2, 10, -5, 3, 1];
+let studentsOnwednesday = [10, -5, 3, 4];
+console.log(
+  openings([studentsOnMondays, studentsOnTusday, studentsOnwednesday], 2)
+);
