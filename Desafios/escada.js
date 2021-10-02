@@ -1,9 +1,8 @@
 escada = (altura) => {
-  let resultado = []; //onde vou inserir meu resultado
+  let resultado = [];
 
   for (let i = 1; i <= altura; i++) {
     let floor = "";
-
     for (let s = 1; s <= altura - i; s++) {
       floor = floor + " ";
     }
@@ -12,11 +11,9 @@ escada = (altura) => {
     }
     resultado.push(floor);
   }
-
   return resultado;
 };
 const stairs = escada(10);
-
 for (const nivel of stairs) {
   console.log(nivel);
 }
