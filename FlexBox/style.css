@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: 0;
+  box-sizing: border-box;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.header {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+  align-items: center;
+  padding: 10px 10%;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+  margin: 5%;
+}
+
+.header-links {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 600px) {
+  .header {
+    display: block;
+    height: 100px;
+    padding: 22px 10%;
+  }
+}
