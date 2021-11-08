@@ -3,12 +3,20 @@
   padding: 0;
   list-style: none;
   box-sizing: border-box;
-  font-size: 1.2rem;
-  font-family: "Courier New", Courier, monospace;
+  font-family: Arial, Helvetica, sans-serif;
 }
 a {
   text-decoration: none;
   color: rgb(255, 255, 255);
+}
+h1 {
+  text-align: center;
+  margin-top: 100px;
+}
+
+img {
+  max-width: 100%;
+  display: block;
 }
 
 .header {
@@ -31,3 +39,19 @@ a {
   display: block;
   padding: 10px;
 }
+
+/*CSS FlexBox*/
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.flex > div {
+  flex: 1 1 200px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+/*CSS GRID 1*/
