@@ -14,11 +14,13 @@ const calc = (valor1, operador, valor2) => {
   const dividir = () => {
     return valor1 / valor2;
   };
-
-  if (operador === "+") return somar();
-  if (operador === "-") return subtrair();
-  if (operador === "*") return multiplicar();
-  if (operador === "/") return dividir();
+  let funções = {
+    "+": somar,
+    "-": subtrair,
+    "*": multiplicar,
+    "/": dividir,
+  };
+  return funções[operador]();
 };
 
 let resultado = calc(n1, "+", n2);
