@@ -9,7 +9,6 @@ function isBroken() {
 function lampOn() {
   if (!isBroken()) {
     lamp.src = "./img/ligada.jpg";
-    document.btn1.style;
   }
 }
 
@@ -21,6 +20,12 @@ function lampOff() {
 
 function brokenLamp() {
   lamp.src = "./img/quebrada.jpg";
+  let newDiv = document.createElement("h3");
+  newDiv.className = "new-div";
+  let newDivContent = document.createTextNode("Por que essa raiva, meu amigo?");
+  newDiv.appendChild(newDivContent);
+  let lastDiv = document.getElementById("buttons");
+  document.body.insertBefore(newDiv, lastDiv);
 }
 
 turnOn.addEventListener("click", lampOn);
