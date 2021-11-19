@@ -4,12 +4,16 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.title,
+.title {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 20px;
+}
 .content-main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 20px;
 }
 
 .buttons {
@@ -24,4 +28,9 @@
   width: 80px;
   background-color: red;
   color: white;
+}
+.new-div {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 }
