@@ -1,4 +1,4 @@
-Exercicio - Consumo de API e preechimento automatico de Formulario
+Exercicio - Consumo de API e preechimento automático de formulário
 
 <p align="center">
   <img src="./img/web.png">

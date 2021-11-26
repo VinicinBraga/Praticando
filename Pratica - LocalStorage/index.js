@@ -11,7 +11,6 @@ const saveData = () => {
     initialDate,
     finalDate,
   };
-  console.log(obj);
   localStorage.setItem("estado", obj.state);
   localStorage.setItem("inicio", obj.initialDate);
   localStorage.setItem("final", obj.finalDate);
