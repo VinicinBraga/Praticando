@@ -40,6 +40,7 @@ body {
   flex-direction: row;
   justify-content: start;
   align-items: flex-end;
+  margin-top: 10px;
   width: 80%;
 }
 
