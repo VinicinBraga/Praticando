@@ -11,20 +11,61 @@
 </head>
 
 <body>
-  <form>
-    <label for="estado">Estado</label>
-    <select name="estado" id="estado">
-      <option value="sp">São Paulo</option>
-      <option value="rj">Rio de Janeiro</option>
-      <option value="mg">Minas Gerais</option>
-      <option value="ba">Bahia</option>
-    </select>
-    <label for="dataInicio">Início</label>
-    <input type="date" name="dataInicio" id="dataInicio">
-    <label for="dataFinal">Final</label>
-    <input type="date" name="dataFinal" id="dataFinal">
-  </form>
-  <button class="btn" id="save" onclick="saveData()">salvar</button>
+  <header>
+    <div class="title">
+      CADASTRO LOCAL
+    </div>
+  </header>
+  <div>
+    <form>
+      <label for="name">Nome</label>
+      <input placeholder="digite seu nome">
+
+      <label for="name">Sobrenome</label>
+      <input placeholder="digite seu sobrenome">
+
+      <label for="name">Celular</label>
+      <input placeholder="digite seu Celular" type="tel">
+
+      <label for="name">E-mail</label>
+      <input placeholder="digite seu e-mail" type="email">
+
+      <label for="cidade">Cidade</label>
+      <select name="cidade" id="cidade">
+        <option value="sp">São Paulo</option>
+        <option value="rj">Rio de Janeiro</option>
+        <option value="bh">Belo Horizonte</option>
+        <option value="sa">Salvador</option>
+      </select>
+
+      <label for="aniversário">Aniversário</label>
+      <input type="date" name="aniversário" id="aniversário">
+
+      <label class='sexo-label' for="sexo">Sexo
+        <div class="sexo">
+          <input type="radio" id="masculino">
+          <label for="sexo">Masculino</label>
+        </div>
+        <div class="sexo">
+          <input type="radio" id="feminino">
+          <label for="sexo">Feminino</label>
+        </div>
+        <div class="sexo">
+          <input type="radio" id="outro">
+          <label for="sexo">Outro</label>
+        </div>
+        <div class="input-sexo">
+          <label for="sexo">Qual?
+            <input type="text" id="qual">
+        </div>
+      </label>
+
+    </form>
+    <div class="button">
+      <button class="btn" id="save" onclick="saveData()">salvar</button>
+    </div>
+
+  </div>
 </body>
 <script src=" index.js"></script>
 
