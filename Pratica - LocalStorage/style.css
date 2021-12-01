@@ -11,13 +11,21 @@ body div {
   margin: 0 auto;
 }
 
+header {
+  background-color: #116933;
+  height: 85px;
+  box-shadow: 3px 3px 8px 1px #000000;
+  margin-bottom: 20px;
+}
+
 .title {
-  color: #116933;
+  color: #ffffff;
   text-align: center;
   text-shadow: -1px -1px 1px rgba(255, 255, 255, 0.1),
     1px 1px 1px rgba(0, 0, 0, 0.5);
   font-size: 30px;
   font-weight: bold;
+  padding-top: 25px;
 }
 
 form {
@@ -75,6 +83,7 @@ select {
   white-space: nowrap;
   will-change: box-shadow, transform;
   font-size: 18px;
+  box-shadow: 3px 3px 8px 1px #000000;
 }
 
 .btn:focus {
