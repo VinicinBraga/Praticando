@@ -18,47 +18,36 @@
   </header>
   <div>
     <form>
-      <label for="name">Nome</label>
-      <input placeholder="digite seu nome">
+      <label>Nome</label>
+      <input placeholder="digite seu nome" id="name">
 
-      <label for="name">Sobrenome</label>
-      <input placeholder="digite seu sobrenome">
+      <label>Sobrenome</label>
+      <input placeholder="digite seu sobrenome" id="surname">
 
-      <label for="name">Celular</label>
-      <input placeholder="digite seu Celular" type="tel">
+      <label>E-mail</label>
+      <input placeholder="digite seu e-mail" type="email" id="email">
 
-      <label for="name">E-mail</label>
-      <input placeholder="digite seu e-mail" type="email">
+      <label>Celular</label>
+      <input placeholder="digite seu Celular" type="tel" id="cell">
 
-      <label for="cidade">Cidade</label>
-      <select name="cidade" id="cidade">
+      <label>Data de Nasc.</label>
+      <input type="date" name="birth" id="birth">
+
+      <label>Cidade</label>
+      <select name="cidade" id="city">
         <option value="sp">São Paulo</option>
         <option value="rj">Rio de Janeiro</option>
         <option value="bh">Belo Horizonte</option>
         <option value="sa">Salvador</option>
       </select>
 
-      <label for="aniversário">Aniversário</label>
-      <input type="date" name="aniversário" id="aniversário">
-
-      <label class='sexo-label' for="sexo">Sexo
-        <div class="sexo">
-          <input type="radio" id="masculino">
-          <label for="sexo">Masculino</label>
-        </div>
-        <div class="sexo">
-          <input type="radio" id="feminino">
-          <label for="sexo">Feminino</label>
-        </div>
-        <div class="sexo">
-          <input type="radio" id="outro">
-          <label for="sexo">Outro</label>
-        </div>
-        <div class="input-sexo">
-          <label for="sexo">Qual?
-            <input type="text" id="qual">
-        </div>
-      </label>
+      <label>Estado</label>
+      <select name="state" id="state">
+        <option value="sp">SP</option>
+        <option value="rj">RJ</option>
+        <option value="mg">MG</option>
+        <option value="ba">BA</option>
+      </select>
 
     </form>
     <div class="button">
