@@ -14,15 +14,8 @@ const saveData = () => {
   const birth = document.getElementById("birth").value;
   const city = document.getElementById("city").value;
   const state = document.getElementById("state").value;
-  const obj = {
-    name,
-    surname,
-    email,
-    cell,
-    birth,
-    city,
-    state,
-  };
+  const obj = { name, surname, email, cell, birth, city, state };
+
   localStorage.setItem("name", obj.name);
   localStorage.setItem("surname", obj.surname);
   localStorage.setItem("email", obj.email);
