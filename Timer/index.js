@@ -14,10 +14,12 @@ const twoDigits = (digit) => {
 const startWatch = () => {
   clearWatch();
   setSec = setInterval(timer, 1000);
+  document.getElementById("warning").innerText = "STARTED...";
 };
 
 const stopWatch = () => {
   clearInterval(setSec);
+  document.getElementById("warning").innerText = "STOPPED!";
 };
 
 const clearWatch = () => {
@@ -25,6 +27,7 @@ const clearWatch = () => {
   sec = 0;
   min = 0;
   document.getElementById("stopwatch").innerText = "00:00:00";
+  document.getElementById("warning").innerText = "RESET";
 };
 
 const timer = () => {
