@@ -1,10 +1,10 @@
 carregar = () => {
   let msg = document.getElementById("msg");
   let img = document.getElementById("imagem");
-  let data = new Date();
-  let hora = data.getHours();
+  let hora = new Date().getHours();
+  let min = new Date().getMinutes();
 
-  msg.innerHTML = `Agora são ${hora} horas.`;
+  msg.innerHTML = `Agora são ${hora} horas e ${min} minutos.`;
   if (hora >= 5 && hora < 12) {
     img.src = "/images/bomDia.jpg";
     document.body.style.background = "#e2cd9f";
@@ -13,6 +13,6 @@ carregar = () => {
     document.body.style.background = "#39768B";
   } else {
     img.src = "/images/boaNoite.jpg";
-    document.body.style.background = "##112025";
+    document.body.style.background = "#112025";
   }
 };
