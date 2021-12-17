@@ -46,12 +46,14 @@ main {
   display: flex;
   width: 300px;
   height: 40px;
+  font-family: Arial, Helvetica, sans-serif;
   justify-content: space-between;
   align-items: center;
 }
 .input input {
   width: 210px;
   height: 40px;
+  font-size: 20px;
   border-radius: 5px;
   border: none;
   outline: 0;
@@ -89,23 +91,23 @@ button {
   text-align: center;
 }
 
-#nome {
+#name {
   margin-left: 8px;
 }
-#altura {
+#height {
   margin-left: 6px;
 }
-#peso {
+#weight {
   margin-left: 17px;
 }
 
 .result {
   display: flex;
-  align-items: center;
   width: 300px;
   height: 150px;
   border-radius: 5px;
-  font: italic 1.5rem arial;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
   box-shadow: 2px 2px -10px black;
   background: #05111f;
   color: #7391b4;
