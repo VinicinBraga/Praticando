@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+}
+
+main {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  background-image: url("https://images.pexels.com/photos/669578/pexels-photo-669578.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=2000");
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  background: #334f70;
+  width: 400px;
+  height: 600px;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 20px;
+  box-shadow: 5px 5px 15px 5px #000000;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 90px;
+  border-bottom: solid 10px #0a213b;
+  margin-top: -10px;
+  margin-bottom: 2px;
+  font-size: 35px;
+  font-weight: bolder;
+  font-family: Arial, Helvetica, sans-serif;
+  text-shadow: 1px -1px 2px #7391b4;
+  color: #0a213b;
+}
+
+.input {
+  display: flex;
+  width: 300px;
+  height: 40px;
+  justify-content: space-between;
+  align-items: center;
+}
+.input input {
+  width: 210px;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  outline: 0;
+  text-align: center;
+}
+
+.input label {
+  font-family: Arial, Helvetica, sans-serif;
+  text-shadow: 1px -1px 2px #7391b4;
+  font-size: 24px;
+  font-weight: bolder;
+  color: #0a213b;
+}
+
+button {
+  background: #0a213b;
+  background-image: -webkit-linear-gradient(top, #0a213b, #05111f);
+  background-image: -moz-linear-gradient(top, #0a213b, #05111f);
+  background-image: -ms-linear-gradient(top, #0a213b, #05111f);
+  background-image: -o-linear-gradient(top, #0a213b, #05111f);
+  background-image: -webkit-gradient(to bottom, #0a213b, #05111f);
+  -webkit-border-radius: 11px;
+  -moz-border-radius: 11px;
+  width: 300px;
+  height: 60px;
+  border-radius: 10px;
+  color: #7391b4;
+  font-family: Arial;
+  font-size: 25px;
+  text-shadow: 1px 1px 3px #0a213b;
+  border: solid #0a213b;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+#nome {
+  margin-left: 8px;
+}
+#altura {
+  margin-left: 6px;
+}
+#peso {
+  margin-left: 17px;
+}
+
+.result {
+  display: flex;
+  align-items: center;
+  width: 300px;
+  height: 150px;
+  border-radius: 5px;
+  font: italic 1.5rem arial;
+  box-shadow: 2px 2px -10px black;
+  background: #05111f;
+  color: #7391b4;
+  padding: 10px;
+  box-sizing: border-box;
+  user-select: none;
+}
