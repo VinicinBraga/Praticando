@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mini Calculator</title>
+</head>
+
+<body>
+  <input id="inp1" type="number">
+  <input id="inp2" type="number">
+  <button id="sum" onclick="sumNumbers()">+</button>
+  <button id="sub" onclick="subNumbers()">-</button>
+
+  <script>
+
+    function sumNumbers() {
+      let inOne = document.getElementById('inp1').value;
+      let inTwo = document.getElementById('inp2').value;
+      result = parseInt(inOne) + parseInt(inTwo)
+      alert(`${inOne} + ${inTwo} = ${result}`)
+    }
+
+    function subNumbers() {
+      let inOne = document.getElementById('inp1').value;
+      let inTwo = document.getElementById('inp2').value;
+      result = parseInt(inOne) - parseInt(inTwo)
+      alert(`${inOne} - ${inTwo} = ${result}`)
+    }
+
+
+  </script>
+</body>
+
+</html>

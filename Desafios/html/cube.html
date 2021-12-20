@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Input Cubed</title>
+</head>
+
+<body>
+  <input id="number" type="number" />
+  <button id="btn" onclick="showCube()">Show Cube</button>
+
+  <script>
+
+    function showCube() {
+      var n = document.getElementById("number").value;
+      var resultado = n * n * n;
+      alert(`${n} cubed is ${resultado}`);
+    }
+
+
+  </script>
+</body>
+
+</html>
