@@ -89,16 +89,20 @@ button {
   display: inline-block;
   cursor: pointer;
   text-align: center;
+  box-shadow: 5px 5px 13px -2px #000000;
+}
+button:active {
+  box-shadow: 5px 5px 13px -2px transparent;
 }
 
 #name {
   margin-left: 8px;
 }
 #height {
-  margin-left: 6px;
+  margin-left: 0px;
 }
 #weight {
-  margin-left: 17px;
+  margin-left: -5px;
 }
 
 .result {

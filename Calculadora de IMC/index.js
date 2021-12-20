@@ -12,21 +12,21 @@ const BMI = () => {
     let bmiResult = "";
 
     if (BMI < 18.5) {
-      bmiResult = "abaixo do peso.";
+      bmiResult = "under weight.";
     } else if (BMI < 25) {
-      bmiResult = "com peso ideal. Parabéns!!!";
+      bmiResult = "with ideal weight. Congratulations!!!";
     } else if (BMI < 30) {
-      bmiResult = "levemente acima do peso.";
+      bmiResult = "slightly overweight.";
     } else if (BMI < 35) {
-      bmiResult = "com obesidade grau I.";
+      bmiResult = "with grade I obesity.";
     } else if (BMI < 40) {
-      bmiResult = "com obesidade grau II";
+      bmiResult = "with grade II obesity.";
     } else {
-      bmiResult = "com obesidade grau III. Cuidado!!";
+      bmiResult = "with grade III obesity. Be careful!!";
     }
-    result.textContent = `${name} seu IMC é ${BMI} e você está ${bmiResult}`;
+    result.textContent = `${name}, your BMI is ${BMI} and you are ${bmiResult}`;
   } else {
-    result.textContent = "Preencha todos os campos!!!";
+    result.textContent = "Fill in all fields!!!";
   }
 };
 calculate.addEventListener("click", BMI);
