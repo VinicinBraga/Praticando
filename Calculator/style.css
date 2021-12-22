@@ -1,0 +1,67 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+  background-image: url("https://images.pexels.com/photos/209224/pexels-photo-209224.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-repeat: no-repeat;
+}
+.calc-container {
+  width: 320px;
+  height: 420px;
+  display: flex;
+  justify-content: center;
+  box-shadow: 5px 5px 15px 3px #000000;
+  border-radius: 8px;
+  background: linear-gradient(to bottom, #444444 5%, #030303 100%);
+}
+.calc-box {
+  margin-top: 25px;
+}
+.display {
+  display: table-cell;
+  vertical-align: middle;
+  padding-right: 15px;
+  width: 280px;
+  height: 80px;
+  text-align: right;
+  color: #5a5a5a;
+  background-color: rgb(204, 231, 161);
+  font-size: 40px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  border-radius: 5px;
+  box-shadow: inset 2px 2px 15px -5px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+}
+
+.numbers-box {
+  margin-top: 18px;
+}
+
+button {
+  padding: 10px;
+  width: 67px;
+  height: 45px;
+  margin-top: 10px;
+  background: linear-gradient(to bottom, #686868 5%, #333333 100%);
+  background-color: #808080;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 7px;
+}
+
+button:hover {
+  cursor: pointer;
+  background: linear-gradient(to bottom, #707070 5%, #707070 100%);
+}
+#r1-1 {
+  background: linear-gradient(to bottom, #e4a4a4 5%, #4b1e1e 100%);
+  color: #ffffff;
+}
