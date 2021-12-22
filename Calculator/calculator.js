@@ -5,7 +5,7 @@ function forclear() {
 function removeZero() {
   var value = document.getElementById("output").innerHTML;
   if (value == "0") {
-    value = " ";
+    value = "";
     document.getElementById("output").innerHTML = value;
   }
 }

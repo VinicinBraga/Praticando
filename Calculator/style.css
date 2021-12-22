@@ -42,27 +42,27 @@ body {
   margin-top: 18px;
 }
 
-button {
+.btn {
   padding: 10px;
   width: 67px;
   height: 45px;
   margin-top: 10px;
-  background: linear-gradient(to bottom, #686868 5%, #333333 100%);
-  background-color: #808080;
+  background: linear-gradient(to bottom, #686868 15%, #333333 80%);
   color: #ffffff;
   font-family: Arial;
   font-size: 20px;
   font-weight: bold;
-  text-decoration: none;
   border-radius: 7px;
+  border-style: groove;
+  border-width: 4px;
 }
 
-button:hover {
+.btn:hover {
   cursor: pointer;
-  background: linear-gradient(to bottom, #707070 5%, #707070 100%);
+  background: linear-gradient(to bottom, #747474 15%, #505050 80%);
 }
 
-button:active {
+.btn:active {
   position: relative;
   top: 2px;
   left: 2px;
