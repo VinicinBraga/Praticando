@@ -61,6 +61,13 @@ button:hover {
   cursor: pointer;
   background: linear-gradient(to bottom, #707070 5%, #707070 100%);
 }
+
+button:active {
+  position: relative;
+  top: 2px;
+  left: 2px;
+}
+
 #r1-1 {
   background: linear-gradient(to bottom, #e4a4a4 5%, #4b1e1e 100%);
   color: #ffffff;
