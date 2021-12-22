@@ -37,6 +37,7 @@ File: <b>Lampada</b> <img src="https://media4.giphy.com/media/3oKIPdiPGxPI7Dze7u
 <p align="center">
   <img src="./images/off.png" width="300" title="off">
   <img src="./images/on.png" width="300" title="on">
+  <img src="./images/broken.png" width="300" title="on">
 </p>
 <br>
 <br>
