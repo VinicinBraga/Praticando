@@ -24,6 +24,6 @@ function fordisplay(value) {
 function solve() {
   removeZero();
   var equation = document.getElementById("output").innerHTML;
-  var solved = eval(equation);
+  var solved = eval(equation).toFixed(2);
   document.getElementById("output").innerHTML = solved;
 }
