@@ -29,11 +29,4 @@ if (1 + 1 === 2) {
 
 console.log(nome); // Retorna 'Vini' pois o o let esta dentro de um bloco e respeita o escopo.
 
-//const
-const nome = "Vini";
 
-if (1 + 1 === 2) {
-  nome = "Vinicius";
-}
-
-console.log(nome); //Retorna um erro, pois não pode ser alterado e já foi declarado.
