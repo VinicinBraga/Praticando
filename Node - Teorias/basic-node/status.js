@@ -1,4 +1,5 @@
 const os = require("os");
+const log = require("./logger");
 
 setInterval(() => {
   //const freemem = os.freemem
@@ -18,4 +19,5 @@ setInterval(() => {
   console.clear();
   console.log("===PC STATUS===");
   console.table(status);
+  log("Rodando...");
 }, 1000);
