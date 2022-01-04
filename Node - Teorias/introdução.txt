@@ -1,0 +1,18 @@
+O que é NodeJS:
+Ele é um JS Runtime Enviroment - Ou seja: Um "ambiente" de execução em tempo real de javascritpt
+
+Para que serve?
+Para construirmos aplicações em front e back-end, microserviços, automaçoes, APIs.
+
+Como funciona?
+O node utiliza engine a partir dos browsers e cria um ambiente na maquina, e possui também um garçon de forma assincrona que atende todos os requisições sem precisar esperar que outras requisições ja tenham sido atendidos.
+Dai que surge as vantagens.
+
+Vantagens:
+Sistema rapido no sentido de execução e prototipar aplicações, alta escalabilidade(o que permite ampliar a aplicação sem custos adicionais)
+Vantajoso para criar aplicações de ponta.
+Leveza
+Possui um sistema gigante de pacotes(NPM)
+JS em todo lugar(front e back)
+
+
