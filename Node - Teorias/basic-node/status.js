@@ -12,12 +12,12 @@ setInterval(() => {
 
   const status = {
     total: `${total} MB - 100%`,
-    used: `${total - mem} - ${100 - percents}%`,
+    used: `${total - mem} MB - ${100 - percents}%`,
     free: `${mem} MB - ${percents}%`,
   };
 
   console.clear();
   console.log("===PC STATUS===");
   console.table(status);
-  log("Rodando...");
+  log(`${JSON.stringify(status.free)}`);
 }, 1000);
