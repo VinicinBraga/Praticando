@@ -1,0 +1,28 @@
+* {
+  padding: 5px;
+  margin: 5px;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(11, 11, 43);
+  color: white;
+}
+
+article {
+  margin-top: 30px;
+}
+ul {
+  display: flex;
+  flex-direction: row;
+}
+li {
+  margin: 15px;
+}
+
+aside {
+  margin-top: 20px;
+}
