@@ -1,5 +1,4 @@
 import { Fragment, useState, useEffect } from "react";
-import "./App.css";
 import axios from "axios";
 
 function App() {
@@ -11,8 +10,8 @@ function App() {
       "api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&appid={API key}",
       {
         params: {
-          lat: lat,
-          lon: lon,
+          lat,
+          lon,
           appid: process.env.REACT_APP_OPEN_WEATHER_KEY,
         },
       }
@@ -24,7 +23,6 @@ function App() {
   useEffect(() => {
     navigator.geolocation.getCurrentPosition((position) => {
       getWeather(position.coords.latitude, position.coords.longitude);
-      console.log(position.coords.latitude, position.coords.longitude);
       setLocation(true);
     });
   }, []);
