@@ -30,14 +30,12 @@ File: <b>HourOfTheDay</b> <img src="https://media2.giphy.com/media/hpWrLS1RDBd5p
 <br>
 <br>
 <br>
-<br>
 File: <b>Lampada</b> <img src="https://media4.giphy.com/media/3oKIPdiPGxPI7Dze7u/giphy.gif?cid=ecf05e47e4tl24a2d4vdts7jx8te5no8fiiabuymeq3l7upa&rid=giphy.gif&ct=g" width="100"/>
 <p align="center">
   <img src="./images/off.png" width="300" title="off">
   <img src="./images/on.png" width="300" title="on">
   <img src="./images/broken.png" width="300" title="on">
 </p>
-<br>
 <br>
 <br>
 <br>
@@ -49,7 +47,6 @@ File: <b>Semaforo</b> <img src="https://media2.giphy.com/media/MmqO9C13DmlVkaIiK
   <img src="./images/semRed.png" width="200" title="semRed">
   <img src="./images/semYell.png" width="200" title="semYell">
 </p>
-<br>
 <br>
 <br>
 <br>
