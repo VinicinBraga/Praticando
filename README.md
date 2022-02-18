@@ -9,7 +9,6 @@ File: <b>Calculadora de IMC</b> </br> <img src="https://media1.giphy.com/media/I
 <br>
 <br>
 <br>
-<br>
 File: <b>Calculator</b> <img src=https://media0.giphy.com/media/5bkoj1jZuzZnrOkNLB/giphy.gif?cid=ecf05e47p3paoxuq49o9j0jqy5s33wwd1tk9pbzeblitwbfz&rid=giphy.gif&ct=s"  width="100">
 <p align="center">
   <img src="./images/calc1.png" width="300" title="1">
@@ -17,7 +16,6 @@ File: <b>Calculator</b> <img src=https://media0.giphy.com/media/5bkoj1jZuzZnrOkN
   <img src="./images/calc3.png" width="300" title="3">
   <img src="./images/calc4.png" width="300" title="2">
 </p>
-<br>
 <br>
 <br>
 <br>
