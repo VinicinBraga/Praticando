@@ -21,7 +21,8 @@ const path = require("path");
   }
 ); */
 
-fs.appendFile(
+//Incluindo Conteúdo no arquivo
+/* fs.appendFile(
   path.join(__dirname, "/test", "test.txt"),
   " Hello Everyone!",
   (error) => {
@@ -29,5 +30,17 @@ fs.appendFile(
       return console.log("Erro: ", error);
     }
     console.log("Conteúdo Incluido no arquivo de texto");
+  }
+); */
+
+//Ler arquivo
+fs.readFile(
+  path.join(__dirname, "/test", "test.txt"),
+  "utf8",
+  (error, data) => {
+    if (error) {
+      return console.log("Erro: ", error);
+    }
+    console.log(`Conteudo do arquivo é: ${data}`);
   }
 );
