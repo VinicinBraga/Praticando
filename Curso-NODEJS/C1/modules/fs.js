@@ -34,7 +34,7 @@ const path = require("path");
 ); */
 
 //Ler arquivo
-fs.readFile(
+/* fs.readFile(
   path.join(__dirname, "/test", "test.txt"),
   "utf8",
   (error, data) => {
@@ -43,4 +43,4 @@ fs.readFile(
     }
     console.log(`Conteudo do arquivo é: ${data}`);
   }
-);
+); */
