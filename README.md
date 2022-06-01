@@ -1,4 +1,8 @@
 # Praticando
+## Pequenos projetos realizados para praticar:
+<br>
+<br>
+
 File: <b>Calculadora de IMC</b> </br> <img src="https://media1.giphy.com/media/IzuleHXyPoXCwDF2lO/giphy.gif?cid=ecf05e47aq4qf5hrgcwzul1nf0ilgyjpc8bc6jg7v6dul8no&rid=giphy.gif&ct=g" width="100"/>
 <p align="center">
   <img src="./images/BMI1.png" width="300" title="1">
