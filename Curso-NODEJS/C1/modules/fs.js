@@ -22,7 +22,7 @@ fs.writeFile(
 );*/
 
 //Incluindo Conteúdo no arquivo
-fs.appendFile(
+/*fs.appendFile(
   path.join(__dirname, "/test", "test1.txt"),
   " Hello Everyone!",
   (error) => {
@@ -43,4 +43,4 @@ fs.readFile(
     }
     console.log(`Conteudo do arquivo é: ${data}`);
   }
-);
+);*/
