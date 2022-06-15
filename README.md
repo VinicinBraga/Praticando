@@ -5,9 +5,9 @@
 
 File: <b>Calculadora de IMC</b> </br> <img src="https://media1.giphy.com/media/IzuleHXyPoXCwDF2lO/giphy.gif?cid=ecf05e47aq4qf5hrgcwzul1nf0ilgyjpc8bc6jg7v6dul8no&rid=giphy.gif&ct=g" width="100"/>
 <p align="center">
-  <img src="./images/BMI1.png" width="300" title="1">
-  <img src="./images/BMI2.png" width="300" title="2">
-  <img src="./images/BMI3.png" width="300" title="3">
+  <img src="./images/BMI1.png" width="400" title="1">
+  <img src="./images/BMI2.png" width="400" title="2">
+  <img src="./images/BMI3.png" width="400" title="3">
 </p>
 <br>
 <br>
