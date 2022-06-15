@@ -15,10 +15,10 @@ File: <b>Calculadora de IMC</b> </br> <img src="https://media1.giphy.com/media/I
 <br>
 File: <b>Calculator</b> <img src=https://media0.giphy.com/media/5bkoj1jZuzZnrOkNLB/giphy.gif?cid=ecf05e47p3paoxuq49o9j0jqy5s33wwd1tk9pbzeblitwbfz&rid=giphy.gif&ct=s"  width="100">
 <p align="center">
-  <img src="./images/calc1.png" width="300" title="1">
-  <img src="./images/calc2.png" width="300" title="2">
-  <img src="./images/calc3.png" width="300" title="3">
-  <img src="./images/calc4.png" width="300" title="2">
+  <img src="./images/calc1.png" width="400" title="1">
+  <img src="./images/calc2.png" width="400" title="2">
+  <img src="./images/calc3.png" width="400" title="3">
+  <img src="./images/calc4.png" width="400" title="2">
 </p>
 <br>
 <br>
@@ -36,9 +36,9 @@ File: <b>HourOfTheDay</b> <img src="https://media2.giphy.com/media/hpWrLS1RDBd5p
 <br>
 File: <b>Lampada</b> <img src="https://media4.giphy.com/media/3oKIPdiPGxPI7Dze7u/giphy.gif?cid=ecf05e47e4tl24a2d4vdts7jx8te5no8fiiabuymeq3l7upa&rid=giphy.gif&ct=g" width="100"/>
 <p align="center">
-  <img src="./images/off.png" width="300" title="off">
-  <img src="./images/on.png" width="300" title="on">
-  <img src="./images/broken.png" width="300" title="on">
+  <img src="./images/off.png" width="400" title="off">
+  <img src="./images/on.png" width="400" title="on">
+  <img src="./images/broken.png" width="400" title="on">
 </p>
 <br>
 <br>
