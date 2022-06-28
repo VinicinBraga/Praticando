@@ -1,8 +1,10 @@
 const express = require("express");
+const { Person } = require("../person");
 const app = express();
 const port = 3000;
+const person = new Person("Vinicius");
 
-app.get("/home", (req, res) => res.status(200).send("Hello World!"));
+app.get("/home", (req, res) => res.status(200).send(`Hi, ${person.name}!!`));
 app.get("/users", (req, res) => {
   const users = [
     {
@@ -14,7 +16,6 @@ app.get("/users", (req, res) => {
       email: "zeze@perrela.com",
     },
   ];
-
   res.status(200).json(users);
 });
 
