@@ -3,10 +3,17 @@ const { Person } = require("../person");
 const UserModel = require("../src/models/user.model");
 
 const app = express();
+const person = new Person("Vinicius");
 
 app.use(express.json());
 
-const person = new Person("Vinicius");
+app.set("view engine", "ejs");
+app.set("views", "./src/views");
+
+app.get("/views/user", async (req, res) => {
+  const users = await UserModel.find({});
+  res.render("index", { users });
+});
 
 app.get("/home", (req, res) => res.status(200).send(`Hi, ${person.name}!!`));
 
