@@ -3,7 +3,7 @@
 <br>
 <br>
 
-File: <b>Calculadora de IMC</b> </br> <img src="https://media1.giphy.com/media/IzuleHXyPoXCwDF2lO/giphy.gif?cid=ecf05e47aq4qf5hrgcwzul1nf0ilgyjpc8bc6jg7v6dul8no&rid=giphy.gif&ct=g" width="100"/>
+File: <b>Calculadora de IMC</b> <img src="https://media1.giphy.com/media/IzuleHXyPoXCwDF2lO/giphy.gif?cid=ecf05e47aq4qf5hrgcwzul1nf0ilgyjpc8bc6jg7v6dul8no&rid=giphy.gif&ct=g" width="100"/>
 <p align="center">
   <img src="./images/BMI1.png" width="400" title="1">
   <img src="./images/BMI2.png" width="400" title="2">
@@ -13,7 +13,7 @@ File: <b>Calculadora de IMC</b> </br> <img src="https://media1.giphy.com/media/I
 <br>
 <br>
 
-File: <b>Calculator</b> <img src=https://media0.giphy.com/media/5bkoj1jZuzZnrOkNLB/giphy.gif?cid=ecf05e47p3paoxuq49o9j0jqy5s33wwd1tk9pbzeblitwbfz&rid=giphy.gif&ct=s"  width="100">
+File: <b>Calculator</b> <img src="https://media0.giphy.com/media/5bkoj1jZuzZnrOkNLB/giphy.gif?cid=ecf05e47p3paoxuq49o9j0jqy5s33wwd1tk9pbzeblitwbfz&rid=giphy.gif&ct=s"  width="100">
 <p align="center">
   <img src="./images/calc1.png" width="400" title="1">
   <img src="./images/calc2.png" width="400" title="2">
